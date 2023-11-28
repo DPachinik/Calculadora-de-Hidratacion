@@ -20,7 +20,7 @@ body{
     margin: auto;
 }
 #calculadora{
-    background: rgb(206, 205, 205);
+    background: rgb(201, 201, 201);
     /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
@@ -47,7 +47,7 @@ input {
 	width: 70%;
     padding: 12px 15px;
     border: none;
-    background-color: #eee;
+    background-color: rgba(247, 250, 238, 0.933)
 }
 
 button {
@@ -55,9 +55,9 @@ button {
 	font-weight: bold;
 	padding: 12px 45px;
 	border-radius: 30px;
-	background-color: #85e4e4;
-	border: 1px solid #000000;
-	color: #000000;
+	background-color: #3ac2c2;
+	border: 1px solid #3ac2c2;
+	color: #ffffff;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	transition: transform 20ms ease-in;

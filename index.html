@@ -3,17 +3,21 @@
     <head>
         <title>Calculadora de hidratación</title>
         <link rel="stylesheet" href="./style.css"/>
+        <script src="script.js"defer></script>
     </head>
     <body>
         <div id="contenedor">
             <div id="calculadora">
                 <div class="contenido">
                     <h1>Hidratación Basal</h1>
-                    <input type="number" placeholder="Ingrese el peso en kg"/>
-                    <p class="item" id="error">*Completa todos los datos</p>
+                    <p class="item">Completa todos los datos</p>
+                    <input class="item" id="peso" type="number" placeholder="Ingrese el peso en kg"/>
+                    <p class="item" id="error">¡Debe completar todos los datos!</p>
                     <button class="item" id="Calcular">Calcular</button>
                     <p class="item resultado" id="flu">71cc/h</p>
                     <p class="item resultado" id="man">m+m/2 : 105cc/h</p>
+                    <p class="item resultado" id="fac1">cc</p>
+                    <p class="item resultado" id="fac2">cc</p>
                 </div>
             </div>
             <div id="detalle">
